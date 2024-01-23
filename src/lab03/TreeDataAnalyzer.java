@@ -14,7 +14,7 @@ import java.io.File;
 public class TreeDataAnalyzer {
 
 	public static void main(String[] args) throws IOException {
-		File filename = new File("./src/forest.txt"); // can call files like linux; base dir is just CS1420
+		File filename = new File("lab03/forest.txt"); // can call files like linux; base dir is just CS1420
 		Scanner file = new Scanner(filename); 
 		
 		String treeName;
